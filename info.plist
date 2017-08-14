@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.gobunov.translit</string>
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
@@ -22,18 +22,7 @@
 			</dict>
 		</array>
 		<key>CD01EB78-06A0-43AE-A51A-41E3958F109D</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>89C2EA8E-D1BF-4A59-A159-9E78B9628356</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>CD5B5582-EBCF-47A3-8AEF-D4C22BA60068</key>
 		<array>
 			<dict>
@@ -49,36 +38,15 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Stanislav Gobunov &lt;stas@gobunov.com&gt;</string>
 	<key>description</key>
-	<string></string>
+	<string>cyrillic transliterate</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
 	<string>translit</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>translit</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>89C2EA8E-D1BF-4A59-A159-9E78B9628356</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -162,13 +130,6 @@
 			<key>ypos</key>
 			<integer>40</integer>
 		</dict>
-		<key>89C2EA8E-D1BF-4A59-A159-9E78B9628356</key>
-		<dict>
-			<key>xpos</key>
-			<integer>690</integer>
-			<key>ypos</key>
-			<integer>40</integer>
-		</dict>
 		<key>CD01EB78-06A0-43AE-A51A-41E3958F109D</key>
 		<dict>
 			<key>xpos</key>
@@ -185,6 +146,6 @@
 		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://gobunov.com</string>
 </dict>
 </plist>
